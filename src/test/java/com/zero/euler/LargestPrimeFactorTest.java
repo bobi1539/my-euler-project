@@ -10,6 +10,6 @@ class LargestPrimeFactorTest {
     void testFindLargestPrimeFactor() {
         long number = 600851475143L;
         long largestPrimeFactor = LargestPrimeFactor.findLargestPrimeFactor(number);
-        System.out.println(largestPrimeFactor);
+        assertEquals(6857, largestPrimeFactor);
     }
 }

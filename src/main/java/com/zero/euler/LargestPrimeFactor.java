@@ -1,8 +1,5 @@
 package com.zero.euler;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public final class LargestPrimeFactor {
 
     private LargestPrimeFactor() {
