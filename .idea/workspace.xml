@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c95b5f48-8cec-41cb-be28-b1b1f085becd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/SmallestMultiple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/SmallestMultipleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/LargestProductInSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/SumSquareDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/SummationOfPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/TenThousandOnePrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/LargestProductInSeriesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/SumSquareDifferenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/SummationOfPrimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/TenThousandOnePrimeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +60,8 @@
       <recent name="com.zero.euler" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SmallestMultipleTest">
-    <configuration name="EvenFibonacciNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LargestProductInSeriesTest">
+    <configuration name="LargestProductInSeriesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-euler-project" />
       <extension name="coverage">
         <pattern>
@@ -64,13 +70,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zero.euler" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.EvenFibonacciNumberTest" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.LargestProductInSeriesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestPalindromeProductTest.testFindLargestPalindromeProductThreeDigit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SummationOfPrimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-euler-project" />
       <extension name="coverage">
         <pattern>
@@ -79,45 +85,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zero.euler" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.LargestPalindromeProductTest" />
-      <option name="METHOD_NAME" value="testFindLargestPalindromeProductThreeDigit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LargestPrimeFactorTest.testFindLargestPrimeFactor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-euler-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.euler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zero.euler" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.LargestPrimeFactorTest" />
-      <option name="METHOD_NAME" value="testFindLargestPrimeFactor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmallestMultipleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-euler-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.euler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zero.euler" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.SmallestMultipleTest" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.SummationOfPrimeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestMultipleTest.testFindSmallestNumberThatDividedFromOneToTwentyNoRemainder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SummationOfPrimeTest.testSumOfPrimeBelowTwoMillion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-euler-project" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +100,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zero.euler" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.SmallestMultipleTest" />
-      <option name="METHOD_NAME" value="testFindSmallestNumberThatDividedFromOneToTwentyNoRemainder" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.SummationOfPrimeTest" />
+      <option name="METHOD_NAME" value="testSumOfPrimeBelowTwoMillion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TenThousandOnePrimeTest.testFind10001PrimeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-euler-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.euler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zero.euler" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.TenThousandOnePrimeTest" />
+      <option name="METHOD_NAME" value="testFind10001PrimeNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TenThousandOnePrimeTest.testTriplet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-euler-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.euler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zero.euler" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.TenThousandOnePrimeTest" />
+      <option name="METHOD_NAME" value="testTriplet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SmallestMultipleTest" />
-        <item itemvalue="JUnit.SmallestMultipleTest.testFindSmallestNumberThatDividedFromOneToTwentyNoRemainder" />
-        <item itemvalue="JUnit.LargestPalindromeProductTest.testFindLargestPalindromeProductThreeDigit" />
-        <item itemvalue="JUnit.LargestPrimeFactorTest.testFindLargestPrimeFactor" />
-        <item itemvalue="JUnit.EvenFibonacciNumberTest" />
+        <item itemvalue="JUnit.LargestProductInSeriesTest" />
+        <item itemvalue="JUnit.SummationOfPrimeTest.testSumOfPrimeBelowTwoMillion" />
+        <item itemvalue="JUnit.SummationOfPrimeTest" />
+        <item itemvalue="JUnit.TenThousandOnePrimeTest.testTriplet" />
+        <item itemvalue="JUnit.TenThousandOnePrimeTest.testFind10001PrimeNumber" />
       </list>
     </recent_temporary>
   </component>
