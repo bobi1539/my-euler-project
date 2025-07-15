@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c95b5f48-8cec-41cb-be28-b1b1f085becd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/LargestProductInSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/SumSquareDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/SummationOfPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/TenThousandOnePrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/LargestProductInSeriesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/SumSquareDifferenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/SummationOfPrimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/TenThousandOnePrimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/LargeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/LargestProductInGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/TriangleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/LargestProductInGridTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/LargestPalindromeProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/LargestPalindromeProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/SmallestMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/SmallestMultiple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/SumSquareDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/SumSquareDifference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -35,23 +35,31 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2kyWisnK7pEcA4jtJy2JXLLgFF0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.LargeSum.executor": "Run",
+    "Application.TriangleNumber.executor": "Run",
+    "JUnit.LargestProductInGridTest.testFindLargestProductInGrid.executor": "Run",
+    "JUnit.TriangleNumberTest.countDivisorTriangleNumberTest.executor": "Run",
+    "JUnit.TriangleNumberTest.triangleNumberTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/bobirival/Documents/01-Pribadi/02-Project/02-Java/my-euler-project",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -60,7 +68,49 @@
       <recent name="com.zero.euler" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LargestProductInSeriesTest">
+  <component name="RunManager" selected="Application.LargeSum">
+    <configuration name="LargeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.LargeSum" />
+      <module name="my-euler-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.euler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.TriangleNumber" />
+      <module name="my-euler-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.euler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargestProductInGridTest.testFindLargestProductInGrid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-euler-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.euler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zero.euler" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.LargestProductInGridTest" />
+      <option name="METHOD_NAME" value="testFindLargestProductInGrid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LargestProductInSeriesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-euler-project" />
       <extension name="coverage">
@@ -76,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SummationOfPrimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TriangleNumberTest.countDivisorTriangleNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-euler-project" />
       <extension name="coverage">
         <pattern>
@@ -85,55 +135,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zero.euler" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.SummationOfPrimeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SummationOfPrimeTest.testSumOfPrimeBelowTwoMillion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-euler-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.euler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zero.euler" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.SummationOfPrimeTest" />
-      <option name="METHOD_NAME" value="testSumOfPrimeBelowTwoMillion" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TenThousandOnePrimeTest.testFind10001PrimeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-euler-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.euler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zero.euler" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.TenThousandOnePrimeTest" />
-      <option name="METHOD_NAME" value="testFind10001PrimeNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TenThousandOnePrimeTest.testTriplet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-euler-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.euler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zero.euler" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.TenThousandOnePrimeTest" />
-      <option name="METHOD_NAME" value="testTriplet" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.TriangleNumberTest" />
+      <option name="METHOD_NAME" value="countDivisorTriangleNumberTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargeSum" />
+        <item itemvalue="Application.TriangleNumber" />
+        <item itemvalue="JUnit.TriangleNumberTest.countDivisorTriangleNumberTest" />
+        <item itemvalue="JUnit.LargestProductInGridTest.testFindLargestProductInGrid" />
         <item itemvalue="JUnit.LargestProductInSeriesTest" />
-        <item itemvalue="JUnit.SummationOfPrimeTest.testSumOfPrimeBelowTwoMillion" />
-        <item itemvalue="JUnit.SummationOfPrimeTest" />
-        <item itemvalue="JUnit.TenThousandOnePrimeTest.testTriplet" />
-        <item itemvalue="JUnit.TenThousandOnePrimeTest.testFind10001PrimeNumber" />
       </list>
     </recent_temporary>
   </component>

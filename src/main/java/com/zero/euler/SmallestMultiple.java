@@ -1,6 +1,6 @@
 package com.zero.euler;
 
-public class SmallestMultiple {
+public final class SmallestMultiple {
 
     private SmallestMultiple() {
         throw new IllegalArgumentException();

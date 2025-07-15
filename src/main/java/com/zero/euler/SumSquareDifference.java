@@ -1,6 +1,6 @@
 package com.zero.euler;
 
-public class SumSquareDifference {
+public final class SumSquareDifference {
 
     private SumSquareDifference() {
         throw new IllegalArgumentException();

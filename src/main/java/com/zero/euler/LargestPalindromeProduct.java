@@ -1,6 +1,6 @@
 package com.zero.euler;
 
-public class LargestPalindromeProduct {
+public final class LargestPalindromeProduct {
 
     private LargestPalindromeProduct() {
         throw new IllegalArgumentException();
