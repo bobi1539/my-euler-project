@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c95b5f48-8cec-41cb-be28-b1b1f085becd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/LargeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/LargestProductInGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/TriangleNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/LargestProductInGridTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/LongestCollatzSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/MaximumPathSum1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/NumberLetterCounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/PowerDigitSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/LargestPalindromeProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/LargestPalindromeProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/SmallestMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/SmallestMultiple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/SumSquareDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/SumSquareDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/EvenFibonacciNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/EvenFibonacciNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +42,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.LargeSum.executor": "Run",
+    "Application.LongestCollatzSequence.executor": "Run",
+    "Application.MaximumPathSum1.executor": "Run",
+    "Application.NumberLetterCounts.executor": "Run",
+    "Application.PowerDigitSum.executor": "Run",
     "Application.TriangleNumber.executor": "Run",
+    "JUnit.EvenFibonacciNumberTest.test.executor": "Run",
     "JUnit.LargestProductInGridTest.testFindLargestProductInGrid.executor": "Run",
     "JUnit.TriangleNumberTest.countDivisorTriangleNumberTest.executor": "Run",
     "JUnit.TriangleNumberTest.triangleNumberTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -68,9 +71,9 @@
       <recent name="com.zero.euler" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LargeSum">
-    <configuration name="LargeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.LargeSum" />
+  <component name="RunManager" selected="Application.MaximumPathSum1">
+    <configuration name="LongestCollatzSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.LongestCollatzSequence" />
       <module name="my-euler-project" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.TriangleNumber" />
+    <configuration name="MaximumPathSum1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.MaximumPathSum1" />
       <module name="my-euler-project" />
       <extension name="coverage">
         <pattern>
@@ -95,7 +98,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestProductInGridTest.testFindLargestProductInGrid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberLetterCounts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.NumberLetterCounts" />
+      <module name="my-euler-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.euler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PowerDigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.PowerDigitSum" />
+      <module name="my-euler-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.euler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvenFibonacciNumberTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-euler-project" />
       <extension name="coverage">
         <pattern>
@@ -104,39 +133,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zero.euler" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.LargestProductInGridTest" />
-      <option name="METHOD_NAME" value="testFindLargestProductInGrid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LargestProductInSeriesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-euler-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.euler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zero.euler" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.LargestProductInSeriesTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TriangleNumberTest.countDivisorTriangleNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-euler-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.euler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zero.euler" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.TriangleNumberTest" />
-      <option name="METHOD_NAME" value="countDivisorTriangleNumberTest" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.EvenFibonacciNumberTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LargeSum" />
-        <item itemvalue="Application.TriangleNumber" />
-        <item itemvalue="JUnit.TriangleNumberTest.countDivisorTriangleNumberTest" />
-        <item itemvalue="JUnit.LargestProductInGridTest.testFindLargestProductInGrid" />
-        <item itemvalue="JUnit.LargestProductInSeriesTest" />
+        <item itemvalue="Application.MaximumPathSum1" />
+        <item itemvalue="JUnit.EvenFibonacciNumberTest.test" />
+        <item itemvalue="Application.NumberLetterCounts" />
+        <item itemvalue="Application.PowerDigitSum" />
+        <item itemvalue="Application.LongestCollatzSequence" />
       </list>
     </recent_temporary>
   </component>
