@@ -1,10 +1,9 @@
 package com.zero.euler;
 
+import com.zero.euler.part0001.EvenFibonacciNumber;
 import org.junit.jupiter.api.Test;
 
 import java.util.*;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicReference;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

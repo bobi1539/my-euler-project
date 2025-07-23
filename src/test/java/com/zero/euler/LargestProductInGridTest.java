@@ -1,8 +1,7 @@
 package com.zero.euler;
 
+import com.zero.euler.part0001.LargestProductInGrid;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class LargestProductInGridTest {
 

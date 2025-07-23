@@ -1,4 +1,4 @@
-package com.zero.euler;
+package com.zero.euler.part0001;
 
 import lombok.extern.slf4j.Slf4j;
 

@@ -5,12 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c95b5f48-8cec-41cb-be28-b1b1f085becd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/LongestCollatzSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/MaximumPathSum1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/NumberLetterCounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/PowerDigitSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/CountingSundays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/FactorialDigitSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/EvenFibonacciNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/EvenFibonacciNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/LargeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/LargeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/LargestPalindromeProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/LargestPalindromeProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/LargestPrimeFactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/LargestPrimeFactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/LargestProductInGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/LargestProductInGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/LargestProductInSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/LargestProductInSeries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/LongestCollatzSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/LongestCollatzSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/MaximumPathSum1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/MaximumPathSum1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/MultipleThreeOrFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/MultipleThreeOrFive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/NumberLetterCounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/NumberLetterCounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/PowerDigitSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/PowerDigitSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/SmallestMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/SmallestMultiple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/SumSquareDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/SumSquareDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/SummationOfPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/SummationOfPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/TenThousandOnePrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/TenThousandOnePrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/TriangleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/TriangleNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/EvenFibonacciNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/EvenFibonacciNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/LargestPalindromeProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/LargestPalindromeProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/LargestPrimeFactorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/LargestPrimeFactorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/LargestProductInGridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/LargestProductInGridTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/LargestProductInSeriesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/LargestProductInSeriesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/MultipleThreeOrFiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/MultipleThreeOrFiveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/SmallestMultipleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/SmallestMultipleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/SumSquareDifferenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/SumSquareDifferenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/SummationOfPrimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/SummationOfPrimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/TenThousandOnePrimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/TenThousandOnePrimeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +64,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CountingSundays.executor": "Run",
+    "Application.FactorialDigitSum.executor": "Run",
     "Application.LargeSum.executor": "Run",
     "Application.LongestCollatzSequence.executor": "Run",
     "Application.MaximumPathSum1.executor": "Run",
@@ -71,13 +96,26 @@
       <recent name="com.zero.euler" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaximumPathSum1">
-    <configuration name="LongestCollatzSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.LongestCollatzSequence" />
+  <component name="RunManager" selected="Application.FactorialDigitSum">
+    <configuration name="CountingSundays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.part0001.CountingSundays" />
       <module name="my-euler-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.euler.*" />
+          <option name="PATTERN" value="com.zero.euler.part0001.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactorialDigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.part0001.FactorialDigitSum" />
+      <module name="my-euler-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.euler.part0001.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,11 +124,11 @@
       </method>
     </configuration>
     <configuration name="MaximumPathSum1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.MaximumPathSum1" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.part0001.MaximumPathSum1" />
       <module name="my-euler-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.euler.*" />
+          <option name="PATTERN" value="com.zero.euler.part0001.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,24 +137,11 @@
       </method>
     </configuration>
     <configuration name="NumberLetterCounts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.NumberLetterCounts" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.part0001.NumberLetterCounts" />
       <module name="my-euler-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.euler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PowerDigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.PowerDigitSum" />
-      <module name="my-euler-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.euler.*" />
+          <option name="PATTERN" value="com.zero.euler.part0001.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,7 +153,7 @@
       <module name="my-euler-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.euler.*" />
+          <option name="PATTERN" value="com.zero.euler.part0001.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FactorialDigitSum" />
+        <item itemvalue="Application.CountingSundays" />
         <item itemvalue="Application.MaximumPathSum1" />
         <item itemvalue="JUnit.EvenFibonacciNumberTest.test" />
         <item itemvalue="Application.NumberLetterCounts" />
-        <item itemvalue="Application.PowerDigitSum" />
-        <item itemvalue="Application.LongestCollatzSequence" />
       </list>
     </recent_temporary>
   </component>

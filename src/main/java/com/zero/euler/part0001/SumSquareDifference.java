@@ -1,4 +1,4 @@
-package com.zero.euler;
+package com.zero.euler.part0001;
 
 public final class SumSquareDifference {
 
