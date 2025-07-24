@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c95b5f48-8cec-41cb-be28-b1b1f085becd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/NamesScores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/NonAbundantSums.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +45,7 @@
     "Application.LongestCollatzSequence.executor": "Run",
     "Application.MaximumPathSum1.executor": "Run",
     "Application.NamesScores.executor": "Run",
+    "Application.NonAbundantSums.executor": "Run",
     "Application.NumberLetterCounts.executor": "Run",
     "Application.PowerDigitSum.executor": "Run",
     "Application.TriangleNumber.executor": "Run",
@@ -61,7 +62,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/bobirival/Documents/01-Pribadi/02-Project/02-Java/my-euler-project",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -72,22 +73,9 @@
       <recent name="com.zero.euler" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NamesScores">
+  <component name="RunManager" selected="Application.NonAbundantSums">
     <configuration name="AmicableNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zero.euler.part0001.AmicableNumbers" />
-      <module name="my-euler-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.euler.part0001.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountingSundays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.part0001.CountingSundays" />
       <module name="my-euler-project" />
       <extension name="coverage">
         <pattern>
@@ -138,13 +126,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NonAbundantSums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.part0001.NonAbundantSums" />
+      <module name="my-euler-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.euler.part0001.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NonAbundantSums" />
         <item itemvalue="Application.NamesScores" />
         <item itemvalue="Application.AmicableNumbers" />
         <item itemvalue="Application.LatticePaths" />
         <item itemvalue="Application.FactorialDigitSum" />
-        <item itemvalue="Application.CountingSundays" />
       </list>
     </recent_temporary>
   </component>
