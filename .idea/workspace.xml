@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c95b5f48-8cec-41cb-be28-b1b1f085becd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/AmicableNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/NamesScores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +44,7 @@
     "Application.LatticePaths.executor": "Run",
     "Application.LongestCollatzSequence.executor": "Run",
     "Application.MaximumPathSum1.executor": "Run",
+    "Application.NamesScores.executor": "Run",
     "Application.NumberLetterCounts.executor": "Run",
     "Application.PowerDigitSum.executor": "Run",
     "Application.TriangleNumber.executor": "Run",
@@ -71,7 +72,7 @@
       <recent name="com.zero.euler" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AmicableNumbers">
+  <component name="RunManager" selected="Application.NamesScores">
     <configuration name="AmicableNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zero.euler.part0001.AmicableNumbers" />
       <module name="my-euler-project" />
@@ -124,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumPathSum1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.part0001.MaximumPathSum1" />
+    <configuration name="NamesScores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.part0001.NamesScores" />
       <module name="my-euler-project" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NamesScores" />
         <item itemvalue="Application.AmicableNumbers" />
         <item itemvalue="Application.LatticePaths" />
         <item itemvalue="Application.FactorialDigitSum" />
         <item itemvalue="Application.CountingSundays" />
-        <item itemvalue="Application.MaximumPathSum1" />
       </list>
     </recent_temporary>
   </component>
