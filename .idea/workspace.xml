@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c95b5f48-8cec-41cb-be28-b1b1f085becd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/LatticePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/AmicableNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AmicableNumbers.executor": "Run",
     "Application.CountingSundays.executor": "Run",
     "Application.FactorialDigitSum.executor": "Run",
     "Application.LargeSum.executor": "Run",
@@ -69,7 +71,20 @@
       <recent name="com.zero.euler" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LatticePaths">
+  <component name="RunManager" selected="Application.AmicableNumbers">
+    <configuration name="AmicableNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.part0001.AmicableNumbers" />
+      <module name="my-euler-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.euler.part0001.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountingSundays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zero.euler.part0001.CountingSundays" />
       <module name="my-euler-project" />
@@ -122,29 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EvenFibonacciNumberTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-euler-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.euler.part0001.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zero.euler" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.EvenFibonacciNumberTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AmicableNumbers" />
         <item itemvalue="Application.LatticePaths" />
         <item itemvalue="Application.FactorialDigitSum" />
         <item itemvalue="Application.CountingSundays" />
         <item itemvalue="Application.MaximumPathSum1" />
-        <item itemvalue="JUnit.EvenFibonacciNumberTest.test" />
       </list>
     </recent_temporary>
   </component>
