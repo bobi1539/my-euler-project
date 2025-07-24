@@ -5,8 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c95b5f48-8cec-41cb-be28-b1b1f085becd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A024LexicographicPermutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A25ThousandDigitFibonacciNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A001MultipleThreeOrFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A01MultipleThreeOrFive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A002EvenFibonacciNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A02EvenFibonacciNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A003LargestPrimeFactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A03LargestPrimeFactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A004LargestPalindromeProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A04LargestPalindromeProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A005SmallestMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A05SmallestMultiple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A006SumSquareDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A06SumSquareDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A007TenThousandOnePrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A07TenThousandOnePrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A008LargestProductInSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A08LargestProductInSeries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A009SpecialPythagoreanTriplet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A09SpecialPythagoreanTriplet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A010SummationOfPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A10SummationOfPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A011LargestProductInGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A11LargestProductInGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A012TriangleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A12TriangleNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A013LargeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A13LargeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A014LongestCollatzSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A14LongestCollatzSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A015LatticePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A15LatticePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A016PowerDigitSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A16PowerDigitSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A017NumberLetterCounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A17NumberLetterCounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A018MaximumPathSum1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A18MaximumPathSum1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A019CountingSundays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A19CountingSundays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A020FactorialDigitSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A20FactorialDigitSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A021AmicableNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A21AmicableNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A022NamesScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A22NamesScores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A023NonAbundantSums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A23NonAbundantSums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/part0001/A024LexicographicPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A24LexicographicPermutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/A002EvenFibonacciNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/A02EvenFibonacciNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/A004LargestPalindromeProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/A04LargestPalindromeProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/A005SmallestMultipleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/A05SmallestMultipleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/A006SumSquareDifferenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/A06SumSquareDifferenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/A007TenThousandOnePrimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/A07TenThousandOnePrimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/A008LargestProductInSeriesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/A08LargestProductInSeriesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/A010SummationOfPrimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/A10SummationOfPrimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/A011LargestProductInGridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/A11LargestProductInGridTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/A01MultipleThreeOrFiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/A01MultipleThreeOrFiveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/euler/LargestPrimeFactorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/euler/LargestPrimeFactorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +73,7 @@
   "keyToString": {
     "Application.A009SpecialPythagoreanTriplet.executor": "Run",
     "Application.A024LexicographicPermutations.executor": "Run",
+    "Application.A025ThousandDigitFibonacciNumber.executor": "Run",
     "Application.A_009_SpecialPythagoreanTriplet.executor": "Run",
     "Application.A_023_NonAbundantSums.executor": "Run",
     "Application.AmicableNumbers.executor": "Run",
@@ -77,13 +112,13 @@
       <recent name="com.zero.euler" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A024LexicographicPermutations">
-    <configuration name="A009SpecialPythagoreanTriplet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.part0001.A009SpecialPythagoreanTriplet" />
+  <component name="RunManager" selected="Application.A25ThousandDigitFibonacciNumber">
+    <configuration name="A09SpecialPythagoreanTriplet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.level001.A09SpecialPythagoreanTriplet" />
       <module name="my-euler-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.euler.part0001.*" />
+          <option name="PATTERN" value="com.zero.euler.level001.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A021AmicableNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.part0001.A021AmicableNumbers" />
+    <configuration name="A22NamesScores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.level001.A22NamesScores" />
       <module name="my-euler-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.euler.part0001.*" />
+          <option name="PATTERN" value="com.zero.euler.level001.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A022NamesScores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.part0001.A022NamesScores" />
+    <configuration name="A23NonAbundantSums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.level001.A23NonAbundantSums" />
       <module name="my-euler-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.euler.part0001.*" />
+          <option name="PATTERN" value="com.zero.euler.level001.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A023NonAbundantSums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.part0001.A023NonAbundantSums" />
+    <configuration name="A24LexicographicPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.level001.A24LexicographicPermutations" />
       <module name="my-euler-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.euler.part0001.*" />
+          <option name="PATTERN" value="com.zero.euler.level001.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A024LexicographicPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.euler.part0001.A024LexicographicPermutations" />
+    <configuration name="A25ThousandDigitFibonacciNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.euler.level001.A25ThousandDigitFibonacciNumber" />
       <module name="my-euler-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.euler.part0001.*" />
+          <option name="PATTERN" value="com.zero.euler.level001.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.A024LexicographicPermutations" />
-        <item itemvalue="Application.A009SpecialPythagoreanTriplet" />
-        <item itemvalue="Application.A023NonAbundantSums" />
-        <item itemvalue="Application.A022NamesScores" />
-        <item itemvalue="Application.A021AmicableNumbers" />
+        <item itemvalue="Application.A25ThousandDigitFibonacciNumber" />
+        <item itemvalue="Application.A24LexicographicPermutations" />
+        <item itemvalue="Application.A09SpecialPythagoreanTriplet" />
+        <item itemvalue="Application.A23NonAbundantSums" />
+        <item itemvalue="Application.A22NamesScores" />
       </list>
     </recent_temporary>
   </component>
