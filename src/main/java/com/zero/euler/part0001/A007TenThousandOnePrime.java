@@ -3,9 +3,9 @@ package com.zero.euler.part0001;
 import java.util.HashSet;
 import java.util.Set;
 
-public final class TenThousandOnePrime {
+public final class A007TenThousandOnePrime {
 
-    private TenThousandOnePrime() {
+    private A007TenThousandOnePrime() {
         throw new IllegalArgumentException();
     }
 
@@ -14,7 +14,7 @@ public final class TenThousandOnePrime {
         long number = 1;
         long primeNumber;
         while (true) {
-            if (LargestPrimeFactor.isPrimeNumber(number)) {
+            if (A003LargestPrimeFactor.isPrimeNumber(number)) {
                 counter += 1;
             }
             if (counter == 10001) {

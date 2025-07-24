@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.util.Map;
 
 @Slf4j
-public class NumberLetterCounts {
+public class A017NumberLetterCounts {
 
     private static final Map<Integer, String> ones = Map.ofEntries(
             Map.entry(1, "one"), Map.entry(2, "two"), Map.entry(3, "three"),

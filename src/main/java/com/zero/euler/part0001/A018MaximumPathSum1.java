@@ -3,7 +3,7 @@ package com.zero.euler.part0001;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class MaximumPathSum1 {
+public class A018MaximumPathSum1 {
 
     public static void main(String[] args) {
         int[][] examples = new int[][]{

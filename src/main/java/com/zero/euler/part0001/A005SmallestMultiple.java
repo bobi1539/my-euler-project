@@ -1,8 +1,8 @@
 package com.zero.euler.part0001;
 
-public final class SmallestMultiple {
+public final class A005SmallestMultiple {
 
-    private SmallestMultiple() {
+    private A005SmallestMultiple() {
         throw new IllegalArgumentException();
     }
 

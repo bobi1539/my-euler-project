@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.Arrays;
 
 @Slf4j
-public class NamesScores {
+public class A022NamesScores {
 
     public static void main(String[] args) {
         log.info("name scores from file : {}", countNameScore());

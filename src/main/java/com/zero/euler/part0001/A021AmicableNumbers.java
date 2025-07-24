@@ -3,7 +3,7 @@ package com.zero.euler.part0001;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class AmicableNumbers {
+public class A021AmicableNumbers {
 
     public static void main(String[] args) {
         log.info("proper divisor 220 : {}", sumOfProperDivisor(220));

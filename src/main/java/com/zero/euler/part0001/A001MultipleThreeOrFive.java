@@ -1,8 +1,8 @@
 package com.zero.euler.part0001;
 
-public final class MultipleThreeOrFive {
+public final class A001MultipleThreeOrFive {
 
-    private MultipleThreeOrFive() {
+    private A001MultipleThreeOrFive() {
         throw new IllegalArgumentException();
     }
 

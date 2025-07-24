@@ -6,7 +6,7 @@ import java.time.DayOfWeek;
 import java.time.LocalDate;
 
 @Slf4j
-public class CountingSundays {
+public class A019CountingSundays {
 
     public static void main(String[] args) {
         log.info("How many sundays fell on the first month 1901 - 2000: {}", count());

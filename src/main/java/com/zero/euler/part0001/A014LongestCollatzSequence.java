@@ -3,7 +3,7 @@ package com.zero.euler.part0001;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class LongestCollatzSequence {
+public class A014LongestCollatzSequence {
 
     public static void main(String[] args) {
         long start = System.currentTimeMillis();

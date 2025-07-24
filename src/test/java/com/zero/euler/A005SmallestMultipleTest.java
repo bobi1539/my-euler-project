@@ -1,16 +1,16 @@
 package com.zero.euler;
 
-import com.zero.euler.part0001.SmallestMultiple;
+import com.zero.euler.part0001.A005SmallestMultiple;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class SmallestMultipleTest {
+class A005SmallestMultipleTest {
 
     @Test
     void testFindSmallestNumberThatDividedFromOneToTwentyNoRemainder() {
         long start = System.currentTimeMillis();
-        int smallest = SmallestMultiple.findSmallestNumberThatDividedFromOneToTwentyNoRemainder();
+        int smallest = A005SmallestMultiple.findSmallestNumberThatDividedFromOneToTwentyNoRemainder();
         long end = System.currentTimeMillis();
         System.out.printf("%s : ms%n", end - start);
         System.out.println(smallest);

@@ -1,8 +1,8 @@
 package com.zero.euler.part0001;
 
-public final class LargestPrimeFactor {
+public final class A003LargestPrimeFactor {
 
-    private LargestPrimeFactor() {
+    private A003LargestPrimeFactor() {
         throw new IllegalArgumentException();
     }
 

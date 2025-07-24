@@ -1,17 +1,17 @@
 package com.zero.euler;
 
-import com.zero.euler.part0001.EvenFibonacciNumber;
+import com.zero.euler.part0001.A002EvenFibonacciNumber;
 import org.junit.jupiter.api.Test;
 
 import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class EvenFibonacciNumberTest {
+class A002EvenFibonacciNumberTest {
 
     @Test
     void testFindSumOfEvenFibonacciNumber() {
-        int sum = EvenFibonacciNumber.findSumOfEvenFibonacciNumber();
+        int sum = A002EvenFibonacciNumber.findSumOfEvenFibonacciNumber();
         assertEquals(4_613_732, sum);
     }
 

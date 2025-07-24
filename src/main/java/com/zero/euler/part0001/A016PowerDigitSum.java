@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.math.BigInteger;
 
 @Slf4j
-public class PowerDigitSum {
+public class A016PowerDigitSum {
 
     public static void main(String[] args) {
 

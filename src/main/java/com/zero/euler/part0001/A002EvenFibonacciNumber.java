@@ -1,8 +1,8 @@
 package com.zero.euler.part0001;
 
-public final class EvenFibonacciNumber {
+public final class A002EvenFibonacciNumber {
 
-    private EvenFibonacciNumber() {
+    private A002EvenFibonacciNumber() {
         throw new IllegalArgumentException();
     }
 

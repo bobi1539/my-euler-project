@@ -1,15 +1,15 @@
 package com.zero.euler;
 
-import com.zero.euler.part0001.MultipleThreeOrFive;
+import com.zero.euler.part0001.A001MultipleThreeOrFive;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class MultipleThreeOrFiveTest {
+class A01MultipleThreeOrFiveTest {
 
     @Test
     void testMultiplesOfThreeOrFive() {
-        int sum = MultipleThreeOrFive.multiplesOfThreeOrFive();
+        int sum = A001MultipleThreeOrFive.multiplesOfThreeOrFive();
         assertEquals(233_168, sum);
     }
 }

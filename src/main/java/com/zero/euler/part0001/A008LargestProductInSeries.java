@@ -1,8 +1,8 @@
 package com.zero.euler.part0001;
 
-public final class LargestProductInSeries {
+public final class A008LargestProductInSeries {
 
-    private LargestProductInSeries() {
+    private A008LargestProductInSeries() {
         throw new IllegalArgumentException();
     }
 

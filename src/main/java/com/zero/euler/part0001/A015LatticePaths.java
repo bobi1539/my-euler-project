@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.math.BigInteger;
 
 @Slf4j
-public class LatticePaths {
+public class A015LatticePaths {
 
     public static void main(String[] args) {
         log.info("grid 2 x 2 : {}", computeCombination(2));
@@ -17,15 +17,15 @@ public class LatticePaths {
     public static BigInteger computeCombination(int gridLength) {
         int pathLength = gridLength * 2;
 
-        BigInteger nFactorial = FactorialDigitSum.computeFactorial(pathLength);
-        BigInteger kFactorial = FactorialDigitSum.computeFactorial(gridLength);
+        BigInteger nFactorial = A020FactorialDigitSum.computeFactorial(pathLength);
+        BigInteger kFactorial = A020FactorialDigitSum.computeFactorial(gridLength);
 
         return nFactorial.divide(kFactorial.multiply(kFactorial));
     }
 
     public static BigInteger optimizedCombination(int n) {
         BigInteger numerator = BigInteger.ONE;
-        BigInteger denominator = FactorialDigitSum.computeFactorial(n);
+        BigInteger denominator = A020FactorialDigitSum.computeFactorial(n);
 
         for (int i = n + 1; i <= 2 * n; i++) {
             numerator = numerator.multiply(BigInteger.valueOf(i));

@@ -3,9 +3,9 @@ package com.zero.euler.part0001;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public final class TriangleNumber {
+public final class A012TriangleNumber {
 
-    private TriangleNumber() {
+    private A012TriangleNumber() {
         throw new IllegalArgumentException();
     }
 

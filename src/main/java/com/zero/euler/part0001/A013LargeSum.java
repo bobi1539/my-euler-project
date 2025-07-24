@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.math.BigInteger;
 
 @Slf4j
-public class LargeSum {
+public class A013LargeSum {
 
     public static void main(String[] args) {
         String largeSum = getLargeSum();

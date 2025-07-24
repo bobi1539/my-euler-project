@@ -1,8 +1,8 @@
 package com.zero.euler.part0001;
 
-public final class LargestPalindromeProduct {
+public final class A004LargestPalindromeProduct {
 
-    private LargestPalindromeProduct() {
+    private A004LargestPalindromeProduct() {
         throw new IllegalArgumentException();
     }
 

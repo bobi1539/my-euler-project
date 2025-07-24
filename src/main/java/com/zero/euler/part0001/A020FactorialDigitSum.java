@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.math.BigInteger;
 
 @Slf4j
-public class FactorialDigitSum {
+public class A020FactorialDigitSum {
 
     public static void main(String[] args) {
         log.info("100! : {}", calculate(100));

@@ -1,8 +1,8 @@
 package com.zero.euler.part0001;
 
-public final class LargestProductInGrid {
+public final class A011LargestProductInGrid {
 
-    private LargestProductInGrid() {
+    private A011LargestProductInGrid() {
         throw new IllegalArgumentException();
     }
 

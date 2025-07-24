@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Set;
 
 @Slf4j
-public class NonAbundantSums {
+public class A023NonAbundantSums {
 
     public static void main(String[] args) {
         log.info("is abundant number 28 : {}", isAbundantNumber(28));
