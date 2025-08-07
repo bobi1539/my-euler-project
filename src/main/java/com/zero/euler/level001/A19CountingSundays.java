@@ -9,7 +9,12 @@ import java.time.LocalDate;
 public class A19CountingSundays {
 
     public static void main(String[] args) {
-        log.info("How many sundays fell on the first month 1901 - 2000: {}", count());
+        A19CountingSundays sundays = new A19CountingSundays();
+        log.info("sum : {}", sundays.sum(3, 4));
+    }
+
+    public int sum(int a, int b) {
+        return a + b;
     }
 
     public static int count() {
