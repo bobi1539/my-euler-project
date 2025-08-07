@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c95b5f48-8cec-41cb-be28-b1b1f085becd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/encryption/AES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level002/A26ReciprocalCycles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A19CountingSundays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/euler/level001/A19CountingSundays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/encryption/AES.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/encryption/AES.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

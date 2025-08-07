@@ -7,6 +7,8 @@ import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.GCMParameterSpec;
+import javax.crypto.spec.SecretKeySpec;
+import java.nio.charset.StandardCharsets;
 import java.security.SecureRandom;
 import java.util.Base64;
 
@@ -14,17 +16,26 @@ import java.util.Base64;
 public class AES {
 
     public static void main(String[] args) throws Exception {
-        SecretKey secretKey = generateKey();
+        SecretKey secretKey = generateKey2();
         log.info("secret key : {}", secretKey);
 
-        byte[] iv = generateIv();
-        log.info("iv : {}", iv);
+        byte[] iv1 = generateIv2();
+        log.info("iv1 : {}", iv1);
 
-        String encrypted = encrypt("hello", secretKey, iv);
-        log.info("encrypted : {}", encrypted);
+        byte[] iv2 = generateIv();
+        log.info("iv2 : {}", iv2);
 
-        String decrypted = decrypt(encrypted, secretKey);
-        log.info("decrypted : {}", decrypted);
+        String hello1 = encrypt("hello", secretKey, iv1);
+        log.info("encrypted with iv 1 : {}", hello1);
+
+        String hello2 = encrypt("hello", secretKey, iv2);
+        log.info("encrypted with iv 2 : {}", hello2);
+
+        String decrypted1 = decrypt(hello1, secretKey);
+        log.info("decrypted : {}", decrypted1);
+
+        String decrypted2 = decrypt(hello2, secretKey);
+        log.info("decrypted : {}", decrypted2);
     }
 
     private static final int AES_KEY_SIZE = 128; // atau 256 jika diizinkan
@@ -77,4 +88,13 @@ public class AES {
         return iv;
     }
 
+    public static SecretKey generateKey2() {
+        String rawKey = "inikuncirahasia1"; // 16 karakter = 128 bit
+        byte[] keyBytes = rawKey.getBytes(StandardCharsets.UTF_8);
+        return new SecretKeySpec(keyBytes, "AES");
+    }
+
+    public static byte[] generateIv2() {
+        return new byte[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
+    }
 }
