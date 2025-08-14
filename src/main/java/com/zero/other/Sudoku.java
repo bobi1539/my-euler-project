@@ -101,40 +101,16 @@ public class Sudoku {
     }
 
     private static void removeNumberInBox(int[][] sudoku, int row, int col, Set<Integer> setValue) {
-        if (row < 3 && col < 3) {
-            removeSetOfNumberInBox(sudoku, setValue, 0, 3, 0, 3);
-        } else if (row < 3 && col < 6) {
-            removeSetOfNumberInBox(sudoku, setValue, 0, 3, 3, 6);
-        } else if (row < 3 && col < 9) {
-            removeSetOfNumberInBox(sudoku, setValue, 0, 3, 6, 9);
-        } else if (row < 6 && col < 3) {
-            removeSetOfNumberInBox(sudoku, setValue, 3, 6, 0, 3);
-        } else if (row < 6 && col < 6) {
-            removeSetOfNumberInBox(sudoku, setValue, 3, 6, 3, 6);
-        } else if (row < 6 && col < 9) {
-            removeSetOfNumberInBox(sudoku, setValue, 3, 6, 6, 9);
-        } else if (row < 9 && col < 3) {
-            removeSetOfNumberInBox(sudoku, setValue, 6, 9, 0, 3);
-        } else if (row < 9 && col < 6) {
-            removeSetOfNumberInBox(sudoku, setValue, 6, 9, 3, 6);
-        } else {
-            removeSetOfNumberInBox(sudoku, setValue, 6, 9, 6, 9);
-        }
-    }
-
-    private static void removeSetOfNumberInBox(
-            int[][] sudoku,
-            Set<Integer> setValue,
-            int rowStart,
-            int rowEnd,
-            int colStart,
-            int colEnd
-    ) {
-
         if (setValue.size() == 1) return;
-        for (int row = rowStart; row < rowEnd; row++) {
-            for (int col = colStart; col < colEnd; col++) {
-                int number = sudoku[row][col];
+
+        int startRow = (row / 3) * 3;
+        int startCol = (col / 3) * 3;
+        int endRow = startRow + 3;
+        int endCol = startCol + 3;
+
+        for (int row33 = startRow; row33 < endRow; row33++) {
+            for (int col33 = startCol; col33 < endCol; col33++) {
+                int number = sudoku[row33][col33];
                 setValue.remove(number);
             }
         }
